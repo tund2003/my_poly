@@ -64,4 +64,5 @@ class NewController extends BaseController
             "categories" => $categories
         ]);
     }
+
 }

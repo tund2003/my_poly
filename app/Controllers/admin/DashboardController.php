@@ -37,4 +37,5 @@ class DashboardController extends BaseController
             header("location: http://localhost/poly_tro/admin");
         }
     }
+
 }

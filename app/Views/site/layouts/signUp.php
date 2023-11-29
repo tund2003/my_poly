@@ -29,7 +29,7 @@
             <?php endif ?>
         </div>
         <div class="form-group">
-            <label class="form-label">Mật khẩu</label>
+            <label class="form-label">Mật khẩu </label>
             <input type="password" name="password"
                 class="form-control" required>
         </div>

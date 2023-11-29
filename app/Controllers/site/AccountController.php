@@ -216,4 +216,5 @@ class AccountController extends BaseController
         $this->permissionModel->createPermission($data);
         header('location: http://localhost/poly_tro/site/account/profile');
     }
+
 }
