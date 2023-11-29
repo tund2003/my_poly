@@ -15,5 +15,4 @@
                 "facilities" => $facilities
             ]);
         }
-    
     }

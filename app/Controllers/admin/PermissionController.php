@@ -71,5 +71,4 @@ class PermissionController extends BaseController
             ]);
         }
     }
-
 }

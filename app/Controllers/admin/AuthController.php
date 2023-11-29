@@ -37,5 +37,4 @@ class AuthController extends BaseController
             ]);
         }
     }
-
 }
