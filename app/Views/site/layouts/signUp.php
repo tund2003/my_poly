@@ -44,6 +44,11 @@
                     <?= $facility['name'] ?></option>
                 <?php endforeach ?>
             </select>
+            <div class="form-group">
+            <label for="" class="form-label">Địa chỉ</label>
+            <input type="text" name="address"
+                class="form-control" required>
+        </div>
         </div>
         <button type="submit" class="btn btn-submit">
             Đăng ký

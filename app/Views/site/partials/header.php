@@ -14,7 +14,7 @@
         <div class="main-header">
             <div class="logo">
                 <a href="http://localhost/poly_tro">
-                    <img src="http://localhost/poly_tro/public/image/travele-logo1.png" alt="" style="width:100%" class="logo-image">
+                    <img src="http://localhost/poly_tro/public/image/logo.png" alt="" style="width:100%" class="logo-image">
                 </a>
             </div>
             <div class="action">

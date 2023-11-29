@@ -37,6 +37,16 @@
                 <td><a href="http://localhost/poly_tro/site/order/deleteOrder?id=<?= $order['order_item_id'] ?>"
                         class="btn-remover">Xóa</a>
                 </td>
+                <?php if ($order['status'] == 0) : ?>
+                </td>
+                <td>Chờ thanh toán</td>
+                <?php else : ?>
+                    <td>
+                <form action="http://localhost/vnpay_php/" method="POST">
+                    <button type="submit" class="btn btn-success">Thanh Toán VNP</button>
+                </form>
+                </td>
+                <?php endif; ?>
             </tr>
             <?php endforeach ?>
         </tbody>
